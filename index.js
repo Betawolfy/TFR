@@ -178,5 +178,12 @@ client.on('messageCreate', message => {
     }
 });
 
+client.on('messageCreate', async message => {
+    if (message.content.toLowerCase() === '[user@tfr-server]~') {
+        message.reply('```bash\nPlease enter a command.\n```');
+    }
+});
+
+require('./API');
 // Log when the bot is ready
 client.login(config.token);
