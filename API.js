@@ -35,10 +35,11 @@ app.get('/achievements/:userID', (req, res) => {
     });
 });
 
-// Ajouter un achievement pour un utilisateur
-app.put('/achievement/:userID/:achievement', (req, res) => {
+// Ajouter ou mettre à jour un achievement pour un utilisateur 
+app.put('/achievement/:userID/:achievement/:value?', (req, res) => {
     const userID = req.params.userID;
     const achievementID = req.params.achievement;
+    const value = parseInt(req.params.value) || 1; // Valeur par défaut de 1 si non spécifiée
     
     if (!achievements[achievementID]) {
         return res.status(404).json({ error: 'Achievement non trouvé' });
@@ -51,15 +52,14 @@ app.put('/achievement/:userID/:achievement', (req, res) => {
     }
 
     const existingAchievement = userData[userID].find(a => a.name === achievementID);
+    const maxValue = achievements[achievementID].maxValue;
     
     if (existingAchievement) {
-        if (existingAchievement.current < achievements[achievementID].maxValue) {
-            existingAchievement.current++;
-        }
+        existingAchievement.current = Math.min(value, maxValue); // Ne pas dépasser maxValue
     } else {
         userData[userID].push({
             name: achievementID,
-            current: 1
+            current: Math.min(value, maxValue)
         });
     }
 

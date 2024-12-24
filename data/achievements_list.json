@@ -1,30 +1,30 @@
 {
-    "Did You Played In A Theater?": {
-        "numID": "1",
+    "1": {
+        "numID": "Did You Played In A Theater?",
         "description": "Be mentioned in lore logs 6 times",
         "maxValue": 6,
         "icon": "<:achvnt_didYouPlayedInATheater:1320744557197000804>",
         "category": "Users"
     },
-    "Hardcore Survivalist": {
-        "numID": "2",
+    "2": {
+        "numID": "Hardcore Survivalist",
         "description": "Survive 3 permanent deaths event without dying",
         "maxValue": 3,
         "icon": "<:achvnt_hardcoreSurvivalist:1320742670238482563>",
         "category": "Users"
     },
-    "How Did They Get Here?": {
-        "numID": "3",
+    "3": {
+        "numID": "How Did They Get Here?",
         "description": "Recruit 12 users to the server",
         "maxValue": 12,
         "icon": "<:achvnt_howDidTheyGetHere:1320744833714753567>",
         "category": "Users"
     },
-    "Gathering Autographs": {
-        "numID": "4",
-        "description": "Send 1000 messages in the server",
-        "maxValue": 1000,
+    "4": {
+        "numID": "Gathering Autographs",
+        "description": "Meet every NPCs/Characters there is (New ones don't count if you got this achievement before they're official)",
+        "maxValue": 10,
         "icon": "<:achvnt_imNotABot:1320742670238482563>",
         "category": "Users"
-    },
+    }
 }

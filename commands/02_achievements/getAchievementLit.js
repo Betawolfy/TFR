@@ -38,7 +38,7 @@ module.exports = {
 
                 const [id, achievement] = achievementEntries[currentIndex];
                 embed.addFields({
-                    name: achievement.icon + ' — ' +achievement.numID + '. ' + id,
+                    name: achievement.icon + ' — ' + id + '. ' + achievement.numID,
                     value: `${achievement.description}, Max value: ${achievement.maxValue}`,
                 });
 
