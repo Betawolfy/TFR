@@ -27,30 +27,35 @@ const client = new Client({
     ],
 });
 
-// When silli bot is ready
-// Only once when the bot is ready
-client.on('ready', () => {
-    var d = new Date();
-    const os = require('os');
-
-    // Record the start time
-    const start = Date.now();
-    // Once the bot is ready
-    const end = Date.now();
-
-    console.log(chalk.green(`Ready! Logged in as ${client.user.tag}`));
-
-    try {
-        client.user.setPresence({
-            activities: [{ name: "Ptioh.exe", type: 4 }],
-            status: 'online', // 'online', 'dnd', 'idle', 'invisible'
-        });
-    } catch (error) {
-        console.error(`Failed to set activity: ${error}`);
-    }
-});
-
 // Command Handler
+
+console.log('---- START UP ----');
+
+
+// BIOS for startup
+const bios = ['TerminalOS - made by Rayne',
+              '--------------------------',
+              'Version: 1.0.0',
+              'Canal: Stable',
+              '--------------------------',
+              'PrimaryMaster: rootRayne',
+              'PrimaryMachine: Lunix',
+              'SecondaryMaster: n/a',
+              'SecondaryMachine: n/a',
+              '--------------------------',
+              'CPU Model: Intal Core i99-10700K',
+              'CPU Speed: 3THz',
+              'RAM: 1094GB',
+              'Storage: 100TB',
+              '--------------------------',
+              'Network: 1GB/s',
+              '--------------------------',
+]
+
+// Log the BIOS
+bios.forEach((line) => {
+    console.log(line);
+});
 
 client.commands = new Collection();
 client.categories = new Collection();
@@ -78,7 +83,7 @@ const categories = fs.readdirSync(commandsFolder);
 
 for (const category of categories) {
     const details = require(`${commandsFolder}/${category}/details.json`);
-    console.log(category);
+    console.log(`-${category} loaded`);
     const categoryFolderContent = fs.readdirSync(path.join(commandsFolder, category));
     const commandFiles = categoryFolderContent.filter(file => file.endsWith(".js"));
     const commandsName = [];
@@ -97,7 +102,7 @@ for (const category of categories) {
             ...command
         });
 
-        console.log(`La commande ${commandName} a bien été chargée !`);
+        console.log(` |_>${commandName}`);
     }
 
     // On définit toutes les commandes dans cette catégorie.
@@ -105,7 +110,7 @@ for (const category of categories) {
         details,
         commandsName
     });
-    console.log(`La catégorie ${category} a bien été chargée !`);
+    //console.log(`${category} has been loaded.`);
 };
 
 // Event Handler
@@ -184,6 +189,20 @@ client.on('messageCreate', async message => {
     }
 });
 
-require('./API');
+//require('./API');
 // Log when the bot is ready
 client.login(config.token);
+
+// When silli bot is ready
+// Only once when the bot is ready
+client.on('ready', () => {
+    console.log(chalk.green(`Logged in as ${client.user.tag}!`));
+    try {
+        client.user.setPresence({
+            activities: [{ name: "Ptioh.exe", type: 4 }],
+            status: 'online', // 'online', 'dnd', 'idle', 'invisible'
+        });
+    } catch (error) {
+        console.error(`Failed to set activity: ${error}`);
+    }
+});

@@ -1,0 +1,20 @@
+{
+    "points": {
+        "addPoints": "http://45.155.171.244:27034/command/addPoints",
+        "getPoints": "http://45.155.171.244:27034/command/getPoints",
+        "removePoints": "http://45.155.171.244:27034/command/removePoints",
+        "leaderboard": "http://45.155.171.244:27034/command/leaderboard"
+    },
+    "economy": {
+        "addMoney": "http://45.155.171.244:27034/economy/add-money",
+        "getMoney": "http://45.155.171.244:27034/economy/get-money",
+        "removeMoney": "http://45.155.171.244:27034/economy/remove-money"
+    },
+    "shop": {
+        "getShop": "http://45.155.171.244:27034/economy/shop",
+        "addShop": "http://45.155.171.244:27034/economy/shop"
+    },
+    "inventory": {
+        "add": "http://45.155.171.244:27034/inventory/add"
+    }
+}

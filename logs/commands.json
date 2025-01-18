@@ -1,0 +1,639 @@
+{
+  "logs": [
+    {
+      "timestamp": "2025-01-16T07:58:04.660Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "346ms",
+      "clientLatency": "308ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:57:56.173Z",
+      "command": "set-status",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "194ms",
+      "clientLatency": "308ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:57:46.292Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "202ms",
+      "clientLatency": "308ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:57:38.628Z",
+      "command": "set-status",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "142ms",
+      "clientLatency": "308ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:52:01.644Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "143ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:51:31.939Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "230ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:47:50.359Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "219ms",
+      "clientLatency": "454ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:47:42.381Z",
+      "command": "set-status",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "109ms",
+      "clientLatency": "454ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:47:30.960Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "96ms",
+      "clientLatency": "454ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:47:22.855Z",
+      "command": "set-status",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "135ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:38:06.317Z",
+      "command": "set-status",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "143ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:26:56.084Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          },
+          {
+            "name": "Test Firewall",
+            "description": "The best seller of Lizzy! Great protection against viruses",
+            "price": 1000,
+            "rarity": "rare"
+          }
+        ]
+      },
+      "executionTime": "2531ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-16T07:24:23.191Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          },
+          {
+            "name": "Test Firewall",
+            "description": "The best seller of Lizzy! Great protection against viruses",
+            "price": 1000,
+            "rarity": "rare"
+          }
+        ]
+      },
+      "executionTime": "2449ms",
+      "clientLatency": "139ms"
+    },
+    {
+      "timestamp": "2025-01-15T11:25:52.328Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          },
+          {
+            "name": "Test Firewall",
+            "description": "The best seller of Lizzy! Great protection against viruses",
+            "price": 1000
+          }
+        ]
+      },
+      "executionTime": "3099ms",
+      "clientLatency": "-1ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:40:48.793Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          },
+          {
+            "name": "Test Firewall",
+            "description": "The best seller of Lizzy! Great protection against viruses",
+            "price": 1000
+          }
+        ]
+      },
+      "executionTime": "2657ms",
+      "clientLatency": "124ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:39:38.494Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          }
+        ]
+      },
+      "executionTime": "2127ms",
+      "clientLatency": "305ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:39:25.761Z",
+      "command": "shop-post",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "227ms",
+      "clientLatency": "305ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:35:55.601Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          }
+        ]
+      },
+      "executionTime": "2644ms",
+      "clientLatency": "181ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:33:36.799Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": 1,
+        "shopData": [
+          {
+            "name": "Test Sword",
+            "description": "A basic testing sword",
+            "price": 100,
+            "id": "ITEM_TEST_01",
+            "category": "weapon",
+            "rarity": "common"
+          }
+        ]
+      },
+      "executionTime": "2224ms",
+      "clientLatency": "273ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:27:26.181Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": null
+      },
+      "executionTime": "2476ms",
+      "clientLatency": "276ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:24:57.989Z",
+      "command": "shop-post",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "customArg": "customValue"
+      },
+      "executionTime": "364ms",
+      "clientLatency": "229ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:23:35.149Z",
+      "command": "shop",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "shop",
+        "status": "success",
+        "itemCount": null
+      },
+      "executionTime": "2836ms",
+      "clientLatency": "153ms"
+    },
+    {
+      "timestamp": "2025-01-15T10:14:23.435Z",
+      "command": "get-money",
+      "user": {
+        "id": "432116536866766849",
+        "tag": "betawolfy"
+      },
+      "guild": {
+        "id": "1061858661900767262",
+        "name": "✨🌌  TFR・The Familiar Realities ⸝⸝ ₊˚ ⧣"
+      },
+      "channel": {
+        "id": "1184044675158515802",
+        "name": "staff-bots",
+        "type": 0
+      },
+      "args": {
+        "commandType": "GET",
+        "target": "money",
+        "status": "success"
+      },
+      "executionTime": "133ms",
+      "clientLatency": "-1ms"
+    }
+  ],
+  "totalCommands": 23,
+  "lastUpdated": "2025-01-16T07:58:04.661Z"
+}

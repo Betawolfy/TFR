@@ -1,12 +1,14 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { EmbedBuilder } = require('discord.js');
 const axios = require('axios');
+const config = require('../../config.json');
+const {getRandomColor} = require('../../utils/randomizers/randomColor');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('get-achievements')
-        .setDescription('GET USER Achievements')
-        .addUserOption(option => 
+        .setName('profile')
+        .setDescription('GET USER profile')
+        .addUserOption(option =>
             option.setName('user')
                 .setDescription('ARG1: User')
                 .setRequired(true)),
@@ -14,17 +16,19 @@ module.exports = {
     async execute(interaction) {
         try {
             const user = interaction.options.getUser('user');
-            
+
             const embed = new EmbedBuilder()
-                .setTitle(`[user@tfr-server]~$ get-achievements ${user.tag}`)
+                .setTitle(`[user@tfr-server]~$ get-user --profile --user "${user.tag}"`)
                 .setDescription('Retrieving achievements...')
-                .setColor('#202020')
+                .setThumbnail(user.displayAvatarURL({ dynamic: true, size: 256 }))
+                .setAuthor({ name: '127.0.0.1:8080', iconURL: config.server.icon })
+                .setColor(getRandomColor())
                 .setTimestamp()
                 .setFooter({ text: `Latency: ${Date.now() - interaction.createdTimestamp}ms` });
 
-            const message = await interaction.reply({ 
+            const message = await interaction.reply({
                 embeds: [embed],
-                fetchReply: true 
+                fetchReply: true
             });
 
             await new Promise(resolve => setTimeout(resolve, 1000));
@@ -32,12 +36,13 @@ module.exports = {
             const response = await axios.get(`http://localhost:3000/achievements/${user.id}`);
             const { userAchievements, allAchievements } = response.data;
 
-            embed.setDescription(`GET ${user.tag} achievements`);
+        embed.setDescription(`GET ${user.tag} profile\n\n ${ '#- ' + userAchievements.bio || '#- No bio set'} \n PV: [UNDEFINED] \n XP: [UNDEFINED]`);
             embed.setFooter({ text: 'End-Of-Packet' });
             embed.spliceFields(0, embed.fields?.length || 0);
 
-            for (const achievement of userAchievements) {
-                const achievementInfo = allAchievements[achievement.name]; // Changé de numID à name
+            // Utiliser userAchievements.achievements qui est le tableau des succès
+            for (const achievement of userAchievements.achievements) {
+                const achievementInfo = allAchievements[achievement.name];
                 if (achievementInfo) {
                     embed.addFields({
                         name: achievementInfo.icon + ' — ' + achievementInfo.numID,

@@ -1,0 +1,25 @@
+{
+    "gameTitle": "ProgressBar Game",
+    "progressDescription": "Progress:\n {progressBar} {progress}%\nFragment: {currentFragment}\nType 'grab' to collect or 'quit' to stop",
+    "gameOverTimeRanOut": "{Clippy} { Game Over! Time ran out!",
+    "quitMessage": "{Clippy} { You decided to quit the game! Don't forget to pet the Dog before!\n{dog}",
+    "dogBonusMessage": "{dog} - The dog gave you a bonus of 5% for collecting 3 fragments of the same type in a row!",
+    "safeFragmentMessage": "You collected a safe fragment! The progress bar is filled by 5%",
+    "dangerousFragmentMessage": "{GameOverComp} - You collected a dangerous fragment! Game Over!",
+    "perfectistMessage": "Perfectist! +5 bits!",
+    "corruptedMessage": "Corrupted! +5 bits!",
+    "balancedMessage": "Balanced! +5 bits!",
+    "zebraMessage": "Zebra! +5 bits!",
+    "winMessage": "You won! 🎉",
+    "gameOverMessage": "Game Over!",
+    "explanationEmbed": {
+        "author": {
+            "name": "Clippy",
+            "icon_url": "https://cdn.discordapp.com/emojis/1319573664861126657.webp?size=32&quality=lossless"
+        },
+        "description": "Welcome to the ProgressBar Game! The goal is to fill the progress bar to 100% by collecting fragments.\n\nYou can collect the following fragments:\n{BlueFragment}: Safe fragment • +5%\n{CyanFragment}: Compressed Safe Fragement • +10%\n{YellowFragment}: Warning fragment • +5%\n{PinkFragment}: Delete fragment • -5%\n{RedFragment}: Dangerous fragment • Game Over!\n\nType 'grab' to collect a fragment or 'quit' to stop the game.\n\nGood luck!",
+        "footer": {
+            "text": "Enjoy, there's no popup... yet!"
+        }
+    }
+}
